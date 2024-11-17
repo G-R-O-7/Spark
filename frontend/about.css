@@ -5,7 +5,8 @@ body {
 
 .logo {
   width: 200px;
-  margin-left: 70px; 
+  margin-top: -30px;
+  margin-left: -5px; 
   display: inline-block;
 }
 
@@ -15,7 +16,8 @@ body {
   border-radius: 50%;
   border: 5px solid #00aaff;
   display: inline-block;
-  margin-left: 250px;
+  margin-left: 305px;
+  margin-top: 45px;
 }
 
 .text {
@@ -26,8 +28,12 @@ body {
   max-width: 700px;
   display: inline-block;
   vertical-align: top; 
-  margin-left: 60px;
+  margin-left: 30px;
   margin-top: -25px;
+}
+
+.text:hover{
+  background-color: rgb(180, 228, 192);
 }
 
 .subh {
@@ -63,5 +69,5 @@ body {
 }
 
 .btn:active{
-  background-color: rgb(40, 99, 40);
+  background-color: black;
 }
